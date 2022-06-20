@@ -2,8 +2,7 @@ const mongoose = require("mongoose");
 const { getListingOfCars } = require("./craiglistClient");
 const { saveCar, getCars, getByHood } = require("./dbClient");
 
-const url =
-  "mongodb+srv://snakep1sken:p9ef9QSqipLmhfK@nodeschool-cluster.h14w6.mongodb.net/cardb?retryWrites=true&w=majority";
+
 
 const connectionParams = {
   useNewUrlParser: true,
